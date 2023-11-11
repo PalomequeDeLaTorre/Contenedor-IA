@@ -1,0 +1,39 @@
+<%- include ("../templates/encabezado") %>
+<%- include ("../templates/menu")%>
+
+<div class="container mt-4">
+  <h1 style="font-style: italic; text-align: center;">"Gracias por reciclar"</h1>
+  <p style="font-style: italic; font-size: 20px; text-align: center;">Acabas de obtener 5 puntos</p>
+  <p style="font-style: italic; font-size: 20px; text-align: center; font-weight: bold;">Felicidades!!</p> </div>
+
+  <div class="text-center">
+    <img src="/Logo.png" alt="Imagen" style="max-width: 200px; height: auto; margin-top: 40px;">
+    <h1 class="text-center small-title" style="font-size: 20px; margin-top: 20px; font-family: 'Playfair Display', serif;  font-weight: bold;">RECYCL-IA</h1>
+  </div>
+
+<div class="color-bar" style="background-image: linear-gradient(#212529, #212529); height: 100px; margin-top: 120px;">
+    <p class="text-center" style="font-size: 15px; padding-top: 35px; padding-right: 5px;"><a style="color: #ffffff;">&copy; 2023 Recycl-IA copyright</a></p>
+  </div>
+
+  <style>
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  
+    .text-center img {
+      max-width: 200px;
+      height: auto;
+      animation: rotate 5s linear infinite; 
+    }
+  
+  
+  
+  </style>
+ 
+
+<%- include ("../templates/pie") %>
